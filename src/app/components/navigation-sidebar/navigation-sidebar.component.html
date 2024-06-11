@@ -1,0 +1,13 @@
+<aside
+  class="flex flex-col items-center self-end px-3.5 py-6 mt-8 rounded-xl shadow-lg bg-zinc-800 max-md:hidden"
+>
+  <img loading="lazy" src="../../assets/logo.svg" class="w-[55px]" alt="" />
+
+  <app-navigation-sidebar-item
+    *ngFor="let item of navItems"
+    [icon]="item.icon"
+    [label]="item.label"
+    [link]="item.link"
+  >
+  </app-navigation-sidebar-item>
+</aside>

@@ -1,0 +1,72 @@
+<header class="flex flex-col p-4 text-white">
+  <section
+    class="flex z-10 gap-4 py-3 pr-10 pl-10 max-md:flex-wrap max-md:px-5 self-end"
+  >
+    <div
+      aria-label="Search bar"
+      class="flex gap-3 p-2 text-base leading-6 text-gray-400 whitespace-nowrap rounded-lg bg-neutral-700"
+    >
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e698fecaedf4e12d67742883f79518c443212cf1f05e3f1b5af69e89190f13d4?apiKey=1c18aed1385c4ecbbac7a43e90bc0e48&"
+        alt=""
+        class="shrink-0 w-6 aspect-square"
+      />
+      <div class="flex-1">Search...</div>
+    </div>
+    <div class="flex gap-4">
+      <div
+        tabindex="0"
+        role="button"
+        aria-label="button"
+        class="flex justify-center items-center p-2 w-10 h-10 rounded-lg bg-neutral-700"
+      >
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/e510470102bc66189272b87c3ef55148dfb7403c32197032227c36dd9e379ebe?apiKey=1c18aed1385c4ecbbac7a43e90bc0e48&"
+          alt="Button icon"
+          class="w-6 aspect-square"
+        />
+      </div>
+      <div
+        aria-label="Module"
+        class="flex flex-col justify-center px-3 py-2 text-sm tracking-normal leading-4 text-center text-gray-400 whitespace-nowrap rounded-lg backdrop-blur-lg bg-neutral-700"
+      >
+        <div class="flex gap-1">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/359e946082b808c79046d5ab7a732da8223b9ca5c42087ddb5b16f05082780c7?apiKey=1c18aed1385c4ecbbac7a43e90bc0e48&"
+            alt="Module icon"
+            class="shrink-0 w-5 aspect-square"
+          />
+          <div class="my-auto">Modules</div>
+        </div>
+      </div>
+      <div
+        aria-label="Image container"
+        class="flex overflow-hidden relative z-10 flex-col justify-center items-start py-1 my-auto aspect-square w-[46px]"
+      >
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/4174b91bf01444f1b63b7f4679461744e4e2bc58d9b598454fda7050cf0dd478?apiKey=1c18aed1385c4ecbbac7a43e90bc0e48&"
+          alt="Background image"
+          class="object-cover absolute inset-0 size-full"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/0b1686f4b300476def2df553c18a1381bb2db98b865e08d48216b366398882bb?apiKey=1c18aed1385c4ecbbac7a43e90bc0e48&"
+          alt="Foregound image"
+          class="w-full aspect-square"
+        />
+      </div>
+    </div>
+  </section>
+
+  <div class="flex justify-between items-center mb-4">
+    <h1 class="text-xl font-semibold">Realtime Dashboard</h1>
+  </div>
+</header>
+
+<main class="p-4">
+  <router-outlet></router-outlet>
+</main>

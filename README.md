@@ -1,27 +1,76 @@
-# RealtimeDashboard
+<h1 align="center">Realtime Dashboard</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+<br />
+<p align="center">
+    <img src="https://img.shields.io/badge/Angular-20232A?style=for-the-badge&logo=angular&logoColor=61DAFB" alt="Angular" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+       <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" />
+  
+</p>
 
-## Development server
+Realtime Dashboard is an Angular version 16.2.14 application designed to display real-time data. The frontend is built with Angular, and Tailwind CSS for styling.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
 
-## Code scaffolding
+- [Table of Contents](#table-of-contents)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Project Structure
 
-## Build
+```plaintext
+realtime-dashboard
+├── src
+│   ├── app
+│   │   └── components
+│   ├── assets
+│   │   ├── logo.svg
+│   │   ├── oil.png
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── main.ts
+│   ├── style.css
+├── .gitignore
+└── package.json
+└── angular.json
+└── postcss.config.js
+└── tailwind.config.js
+└── tsconfig.app.json
+└── tsconfig.spec.json
+└── README.md
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
 
-## Running unit tests
+## Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [x] Real-time dashboard data
+- [x] Styling with Tailwind CSS
+- [x] Responsive design
 
-## Running end-to-end tests
+## Prerequisites
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Node.js (v14 or higher)
 
-## Further help
+## Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/dashboard-app.git
+   cd realtime-dashboard
+   npm install
+   npm start
+   ```
+
+## Running the Application
+
+1. run the following command:
+
+   ```bash
+   npm start or ng serve
+   ```
+
+4- The app will run in **localhost:4200** port, The application will automatically reload if you change any of the source files.
